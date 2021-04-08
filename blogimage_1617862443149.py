@@ -37,8 +37,8 @@ for  network in network_list:
 
 server=smtplib.SMTP("smtp.gmail.com",587)
 server.starttls()
-email="rajeevupadhyay608@gmail.com"
-password="mernstack8800"
+email="your_email"
+password="your_password and set gmail less secure"
 server.login(email,password)
 server.sendmail(email,email,final_output)
 server.quit()
